@@ -39,7 +39,7 @@ Extract it and run the .exe. The first time it runs it will prompt you to edit y
 
 # How do selections work? What is marking?
 
-Right now the only way to make a selection is by choosing a starting frame (mark in) and an ending frame (mark out) which will drop two triangles showing where these marks lie. The mark goes off the current cursor position, so I recommend scrubbing (A / D) to find your spot. Changing the key presses will affect all marks in your selection -- all marks between mark in and mark out.
+Selections work off a starting frame (mark in) and an ending frame (mark out) shown by two triangles. There are two ways to get this selection. The first is to just click and drag while the tool is set to "select" which draws a box. Any frames inside this box are selected. The second is to scrub (A / D) until the cursor is where you want the mark to be and then press the "Mark In" or "Mark Out" buttons (or I / O keys). Changing the key presses will affect all marks in your selection -- all marks between mark in and mark out.
 
 A middle mark (white) gets created automatically when both marks are set, but fine tune with with mark mid (M). This mark you can click and drag with your mouse to move the path of the cursor. The algorithm is a weighted average based on distance: mark in and mark out are locked in place while the marks in between are pulled depending on how close they are to mark mid.
 
