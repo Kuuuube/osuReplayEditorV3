@@ -47,6 +47,8 @@ A middle mark (white) gets created automatically when both marks are set, but fi
 
 If you encounter a bug then please tell me about it using the Github [issues page](https://github.com/thebetioplane/osuReplayEditorV3/issues). It is possible that your bug is already reported as well. If the program crashed then please also attach or copy/paste the contents of the "crash.log" file that was created.
 
+If your bug is related to the accuracy analyzer, then also attaching the "accuracy_analyzer.log" file after running `Help > Analyze Acc Trace` will be a big help for diagnosis.
+
 # Disclaimer on replays produced
 
 The replays produced are designed to be read and played back by osu! client successfully, but please advise that the .osr is not a 100% accurate representation of one that would be produced by the game. For example, the replay hash, online id, seed, etc. are not guaranteed to be correct for score submission. This is not designed to be cheat software.
@@ -56,10 +58,3 @@ The replays produced are designed to be read and played back by osu! client succ
 This software costs no money. Redistribution is allowed as long as no modification is made to any DLL or EXE and this README file is also reproduced. Content in the asset directory can be modified. I take no responsibility for what you might get downloading this software from places besides this Github page.
 
 Right now the full source code is not available. This repo is binaries only. In the future I might GPLv3 this and provide source.
-
-# Donate
-
-Developing this software does take time and was highly in demand going off the Github issues created on the old V2 repo, so if you like the software then you can show your appreciation by donating. But rest assured if you do not donate that this software will still be free.
-
-BTC: `bc1qn8g579mdawh3n6tt9u8s7dr7cyq6ex973vuxvm`
-
