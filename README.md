@@ -22,6 +22,12 @@ Or use this direct link to .zip file: https://github.com/thebetioplane/osuReplay
 
 Extract it and run the .exe. The first time it runs it will prompt you to edit your settings file. The settings file should be edited to point towards your osu! installation. The application will stay up to date with this repo unless the "update_url" setting is changed or deleted.
 
+# Source Code
+
+This repository is binaries only. For the source code please use this other repo:
+
+https://github.com/thebetioplane/osuReplayEditorV3_SRC
+
 # Keybinds
 
 * A - scrub backwards
@@ -55,6 +61,4 @@ The replays produced are designed to be read and played back by osu! client succ
 
 # License
 
-This software costs no money. Redistribution is allowed as long as no modification is made to any DLL or EXE and this README file is also reproduced. Content in the asset directory can be modified. I take no responsibility for what you might get downloading this software from places besides this Github page.
-
-Right now the full source code is not available. This repo is binaries only. In the future I might GPLv3 this and provide source.
+Please see: https://github.com/thebetioplane/osuReplayEditorV3_SRC
