@@ -4,6 +4,16 @@ The continuation of the replayEditorV2. Old software did not work properly, this
 
 Requires 64 bit Windows.
 
+Requires Microsoft Visual C++ Redistributable 2015-2019
+
+https://support.microsoft.com/en-us/topic/the-latest-supported-visual-c-downloads-2647da03-1eea-4433-9aff-95f26a218cc0
+
+Download both if you don't already have:
+
+x86: [vc_redist.x86.exe](https://aka.ms/vs/16/release/vc_redist.x86.exe)
+
+x64: [vc_redist.x64.exe](https://aka.ms/vs/16/release/vc_redist.x64.exe)
+
 # Download
 
 You can find all the downloads on the [releases page](https://github.com/thebetioplane/osuReplayEditorV3/releases)
@@ -24,6 +34,8 @@ Extract it and run the .exe. The first time it runs it will prompt you to edit y
 * Mouse wheel - zoom
 * Right click = pan
 * R - reset zoom pan
+* Ctrl+Z - undo
+* Ctrl+Y - redo
 
 # How do selections work? What is marking?
 
@@ -35,7 +47,7 @@ A middle mark (white) gets created automatically when both marks are set, but fi
 
 If you encounter a bug then please tell me about it using the Github [issues page](https://github.com/thebetioplane/osuReplayEditorV3/issues). It is possible that your bug is already reported as well. If the program crashed then please also attach or copy/paste the contents of the "crash.log" file that was created.
 
-# Technical note on replays produced
+# Disclaimer on replays produced
 
 The replays produced are designed to be read and played back by osu! client successfully, but please advise that the .osr is not a 100% accurate representation of one that would be produced by the game. For example, the replay hash, online id, seed, etc. are not guaranteed to be correct for score submission. This is not designed to be cheat software.
 
